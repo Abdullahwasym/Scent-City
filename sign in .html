@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        font-family: 'montserrat', sans-serif;
+        background-color: rgba(131, 131, 248, 0.404);
+    }
+
+    .header {
+        background-color: #e6e6e6;
+        padding: 8px 20px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 32px;
+        top: 10px;
+        display: inline-block;
+
+
+    }
+
+    .logo img {
+        margin-left: 25%;
+        width: 95px;
+    }
+
+    .nav {
+
+        /* font-family: Georgia, 'Times New Roman', Times, serif; */
+        display: block;
+        width: 60%;
+        margin: 12px auto;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 32px;
+        top: 22px;
+        display: inline-block;
+
+    }
+
+    .navbar {
+        /* border: 2px solid red; */
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        font-size: 22px;
+        display: inline-block;
+        padding: 18px 20px;
+
+    }
+
+    .navbar a {
+
+        padding: 12px;
+        color: rgb(10, 10, 151);
+        text-decoration: none;
+        /* margin-left: 5%; */
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+
+        text-decoration: underline;
+        color: rgb(24, 23, 23);
+        text-decoration: none;
+    }
+
+
+
+    .h1 {
+
+        font-size: large;
+        text-align: center;
+        color: darkblue;
+        margin-top: 5%;
+        padding: 10px 5px;
+    }
+
+    .para {
+
+        text-align: center;
+        color: darkblue;
+        font-size: 25px;
+        padding: 14px 13px;
+
+
+    }
+
+    .signin {
+        text-align: center;
+    }
+
+    .signin label {
+
+        font-size: 25px;
+        color: rgb(19, 19, 218);
+    }
+
+    #email,
+    #password {
+
+        border: 2px solid blue;
+        border-radius: 20px;
+        padding: 10px;
+        width: 300px;
+    }
+
+
+
+    .button {
+        color: darkblue;
+        font-size: 20px;
+        border: 2px solid rgb(15, 4, 112);
+        border-radius: 15px;
+        padding: 1px 10px;
+        margin-left: 45%;
+    }
+
+
+    .button:hover {
+        background-color: #5d5d6d;
+    }
+</style>
+
+
+<body>
+
+    <header class="header">
+        <!-- for logo -->
+        <div class="logo">
+
+            <img src="images/logo2.png" alt="logo">
+
+        </div>
+
+
+        <!-- for call us now  -->
+        <!-- <div class="right">
+        
+            <a href="sign in .html"><button class="btn">  SIGN IN  </button></a>
+            
+            </div> -->
+
+        <!-- for navbar -->
+        <div class="nav">
+            <ul class="navbar">
+
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">PERFUMES</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+
+
+            </ul>
+        </div>
+
+
+
+
+        </ul>
+
+    </header>
+
+
+    <div class="h1">
+        <h1>WELCOME TO SIGN IN</h1>
+    </div>
+
+
+    <div class="para">
+
+        <p>JOIN WITH US NOW.</p>
+
+    </div>
+    <br><br><br>
+
+    <div class="signin">
+
+
+        <Label for="email">EMAIL:</Label><br><br>
+        <input type="email" name="email" id="email" placeholder="enter your email">
+        <br><br><br><br>
+
+
+        <label for="password">PASSWORD:</label><br><br>
+        <input type="password" name="password" id="password" placeholder="enter your password">
+
+    </div>
+    <br><br><br>
+    <button class="button">SIGN IN</button>
+
+
+</body>
+
+</html>
